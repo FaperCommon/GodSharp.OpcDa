@@ -13,11 +13,11 @@ Opc DataAccess libary for .NET.
 ### 1. Initialize
 
 ```
-OpcTagItem tags = new OpcTagItem[] 
+OpcTagItem[] tags = new OpcTagItem[] 
 {
     new OpcTagItem { Id = 1, ItemId = "Channel.Test.Tag1" },
     new OpcTagItem { Id = 2, ItemId = "Channel.Test.Tag2" }
-});
+};
 ```
 
 **Sample 1**
